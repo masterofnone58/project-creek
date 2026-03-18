@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "overview": "概览",
+    "finance": "财务",
+    "sales": "销售与客户",
+    "inventory": "库存",
+    "production": "生产",
+    "hr": "人力资源",
+    "reports": "报表",
+    "appName": "Project Creek",
+    "appSubtitle": "运营管理中心",
+    "home": "返回主页"
+  },
+  "common": {
+    "name": "姓名",
+    "date": "日期",
+    "status": "状态",
+    "total": "合计",
+    "description": "描述",
+    "notes": "备注",
+    "actions": "操作",
+    "customer": "客户",
+    "vendor": "供应商",
+    "amount": "金额",
+    "currency": "货币",
+    "category": "类别",
+    "type": "类型",
+    "email": "邮箱",
+    "company": "公司",
+    "assignedTo": "负责人",
+    "startDate": "开始日期",
+    "endDate": "结束日期",
+    "createdAt": "创建时间",
+    "value": "价值",
+    "quantity": "数量",
+    "unit": "单位",
+    "product": "产品"
+  },
+  "status": {
+    "draft": "草稿",
+    "sent": "已发送",
+    "paid": "已付款",
+    "overdue": "已逾期",
+    "cancelled": "已取消",
+    "pending": "待处理",
+    "approved": "已审批",
+    "rejected": "已拒绝",
+    "active": "在职",
+    "inactive": "离职",
+    "on_leave": "休假中",
+    "planned": "计划中",
+    "in_progress": "进行中",
+    "completed": "已完成",
+    "confirmed": "已确认",
+    "processing": "处理中",
+    "shipped": "已发货",
+    "delivered": "已交付",
+    "lead": "潜在客户",
+    "qualified": "已筛选",
+    "proposal": "报价中",
+    "negotiation": "谈判中",
+    "won": "已赢单",
+    "lost": "已丢单",
+    "prospect": "意向客户",
+    "customer": "客户"
+  },
+  "dashboard": {
+    "title": "概览",
+    "description": "公司整体概况",
+    "kpi": {
+      "revenue": "营收（已收款）",
+      "revenueSub": "本期",
+      "outstanding": "待收款发票",
+      "openDeals": "进行中商机",
+      "openDealsSub": "在销售管道中",
+      "lowStock": "库存预警",
+      "lowStockSub": "库存达到或低于补货点",
+      "activeProduction": "进行中生产订单",
+      "activeProductionSub": "当前进行中",
+      "activeEmployees": "在职员工",
+      "activeEmployeesSub": "共 {count} 个部门"
+    },
+    "lowStockAlerts": "库存预警",
+    "lowStockTable": {
+      "product": "产品",
+      "sku": "SKU",
+      "stock": "库存",
+      "reorderLevel": "补货点"
+    }
+  },
+  "finance": {
+    "title": "财务与会计",
+    "description": "发票与费用管理",
+    "paidRevenue": "已收款营收",
+    "outstanding": "待收款",
+    "totalExpenses": "总费用",
+    "invoices": "发票",
+    "expenses": "费用",
+    "invoiceTable": {
+      "invoice": "发票编号",
+      "customer": "客户",
+      "issueDate": "开票日期",
+      "dueDate": "到期日",
+      "status": "状态",
+      "total": "合计"
+    },
+    "expenseTable": {
+      "date": "日期",
+      "category": "类别",
+      "description": "描述",
+      "vendor": "供应商",
+      "status": "状态",
+      "amount": "金额"
+    }
+  },
+  "sales": {
+    "title": "销售与客户关系",
+    "description": "客户、商机和订单管理",
+    "activeCustomers": "活跃客户",
+    "openDeals": "进行中商机",
+    "weightedPipeline": "加权管道价值",
+    "dealsPipeline": "商机管道",
+    "salesOrders": "销售订单",
+    "customers": "客户列表",
+    "dealsTable": {
+      "deal": "商机",
+      "customer": "客户",
+      "stage": "阶段",
+      "probability": "概率",
+      "value": "价值",
+      "assignedTo": "负责人",
+      "closeDate": "预计成交日期"
+    },
+    "ordersTable": {
+      "orderNo": "订单编号",
+      "customer": "客户",
+      "orderDate": "订单日期",
+      "status": "状态",
+      "total": "合计"
+    },
+    "customersTable": {
+      "name": "姓名",
+      "company": "公司",
+      "type": "类型",
+      "email": "邮箱",
+      "since": "加入时间"
+    }
+  },
+  "inventory": {
+    "title": "库存与产品",
+    "description": "产品目录、库存水平和库存变动",
+    "totalProducts": "产品总数",
+    "stockValue": "库存价值（成本）",
+    "lowStockAlerts": "库存预警",
+    "products": "产品列表",
+    "recentMovements": "近期库存变动",
+    "productsTable": {
+      "sku": "SKU",
+      "product": "产品",
+      "category": "类别",
+      "stock": "库存",
+      "reorderLevel": "补货点",
+      "cost": "成本价",
+      "sellPrice": "销售价"
+    },
+    "movementsTable": {
+      "date": "日期",
+      "product": "产品",
+      "type": "类型",
+      "quantity": "数量",
+      "reason": "原因",
+      "reference": "参考单据"
+    },
+    "movementType": {
+      "in": "入库",
+      "out": "出库",
+      "adjustment": "调整"
+    }
+  },
+  "production": {
+    "title": "生产管理",
+    "description": "生产订单与制造管理",
+    "inProgress": "进行中",
+    "planned": "计划中",
+    "completed": "已完成",
+    "productionOrders": "生产订单",
+    "billOfMaterials": "物料清单（BOM）",
+    "orderInfo": "开始于 {startDate} · 完成于 {endDate}",
+    "orderInfoNoEnd": "开始于 {startDate}"
+  },
+  "hr": {
+    "title": "人力资源与团队",
+    "description": "员工与部门管理",
+    "totalEmployees": "员工总数",
+    "active": "在职",
+    "onLeave": "休假中",
+    "departments": "部门",
+    "employees": "员工列表",
+    "members": "人",
+    "member": "人",
+    "head": "负责人",
+    "employeesTable": {
+      "name": "姓名",
+      "role": "职位",
+      "department": "部门",
+      "status": "状态",
+      "startDate": "入职日期",
+      "salary": "薪资"
+    }
+  },
+  "reports": {
+    "title": "报表与分析",
+    "description": "跨模块业务洞察",
+    "financialSummary": "财务概况",
+    "totalRevenue": "总营收",
+    "totalExpenses": "总费用",
+    "grossProfit": "毛利润",
+    "paidInvoices": "{count} 张已付款发票",
+    "expensesByCategory": "费用分类统计",
+    "salesPerformance": "销售绩效",
+    "operationsSummary": "运营概况",
+    "categoryTable": {
+      "category": "类别",
+      "amount": "金额",
+      "pct": "占比"
+    },
+    "salesStats": {
+      "totalCustomers": "客户总数",
+      "dealsWon": "赢单数",
+      "winRate": "赢单率",
+      "wonDealValue": "赢单总价值"
+    },
+    "opsStats": {
+      "productionOrders": "生产订单总数",
+      "completedOrders": "已完成订单",
+      "totalSkus": "SKU 总数",
+      "activeEmployees": "在职员工"
+    }
+  },
+  "companies": {
+    "title": "所有公司",
+    "description": "选择一家公司查看其仪表板",
+    "switchCompany": "切换公司",
+    "openDashboard": "打开仪表板",
+    "industry": "行业",
+    "employees": "名员工",
+    "revenue": "营收",
+    "invoiceQuota": "开票额度上限",
+    "notFound": "未找到该公司",
+    "supplyChainOverview": "供应链总览",
+    "monthlyRevenueTitle": "2025年月度开票金额",
+    "quotaTableTitle": "累计开票金额 vs 开票上限",
+    "quotaTableCompany": "公司",
+    "quotaTableInvoiced": "累计开票",
+    "quotaTableQuota": "开票上限",
+    "quotaTableRate": "达成率"
+  },
+  "supplyChain": {
+    "title": "小田供应链总览",
+    "description": "各主体核心指标汇总及年度目标对比",
+    "backToCompanies": "所有公司",
+    "kpi": {
+      "totalInvoiced": "累计开票额",
+      "salesAmount": "累计销售金额",
+      "ar": "应收账款",
+      "ap": "应付账款",
+      "quotaPct": "开票达成率",
+      "quotaGap": "年度缺口"
+    },
+    "perCompany": {
+      "quota": "开票上限",
+      "achieved": "已完成",
+      "ar": "应收",
+      "ap": "应付",
+      "progress": "进度",
+      "totalInvoiced": "累计开票额",
+      "salesAmount": "累计销售金额",
+      "remaining": "剩余额度",
+      "invoiced": "已开票",
+      "monthlyThreshold": "月度开票阈值",
+      "monthInvoiced": "本月已开票",
+      "monthRemaining": "剩余额度"
+    },
+    "chart": {
+      "title": "公司月度销售开票金额 vs 开票月度阈值",
+      "subtitle": "按公司 · 2025–2026",
+      "actual": "实际",
+      "ceiling": "月度上限",
+      "amount": "金额（美元）"
+    },
+    "alerts": {
+      "title": "风险和告警",
+      "invoice": "发票号",
+      "customer": "客户",
+      "amount": "金额",
+      "dueDate": "到期日",
+      "overdueDays": "逾期天数",
+      "entity": "所属公司",
+      "responsible": "负责人",
+      "noAlerts": "暂无告警",
+      "sectionAr": "应收账款逾期 — 请催款",
+      "sectionThreshold": "月度开票额接近阈值",
+      "daysOverdue": "天逾期",
+      "thresholdReached": "已达月度开票阈值",
+      "remaining": "剩余额度"
+    }
+  }
+}

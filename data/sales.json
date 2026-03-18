@@ -1,0 +1,169 @@
+{
+  "customers": [
+    {
+      "id": "cust-001",
+      "name": "BuildRight Construction",
+      "email": "procurement@buildright.com",
+      "phone": "+1-555-2001",
+      "company": "BuildRight Construction Ltd",
+      "address": { "city": "Chicago", "country": "US" },
+      "type": "customer",
+      "tags": ["construction", "high-volume"],
+      "createdAt": "2023-05-12",
+      "notes": "Key account, prefers monthly invoicing"
+    },
+    {
+      "id": "cust-002",
+      "name": "Apex Distributors",
+      "email": "orders@apexdist.com",
+      "phone": "+1-555-2002",
+      "company": "Apex Distributors Inc",
+      "address": { "city": "Houston", "country": "US" },
+      "type": "customer",
+      "tags": ["distributor", "wholesale"],
+      "createdAt": "2022-11-08",
+      "notes": "Wholesale partner, 30-day terms"
+    },
+    {
+      "id": "cust-003",
+      "name": "Pacific Trade Co",
+      "email": "trade@pacifictrade.co",
+      "phone": "+1-555-2003",
+      "company": "Pacific Trade Co Ltd",
+      "address": { "city": "Los Angeles", "country": "US" },
+      "type": "customer",
+      "tags": ["export", "wholesale"],
+      "createdAt": "2024-01-20"
+    },
+    {
+      "id": "cust-004",
+      "name": "Nordic Imports GmbH",
+      "email": "buying@nordicimports.de",
+      "phone": "+49-89-4567",
+      "company": "Nordic Imports GmbH",
+      "address": { "city": "Munich", "country": "DE" },
+      "type": "prospect",
+      "tags": ["europe", "import"],
+      "createdAt": "2026-01-10",
+      "notes": "Interested in Storage Frame Units — in negotiation"
+    },
+    {
+      "id": "cust-005",
+      "name": "Summit Industrial",
+      "email": "jack@summitind.com",
+      "phone": "+1-555-2005",
+      "company": "Summit Industrial LLC",
+      "address": { "city": "Denver", "country": "US" },
+      "type": "lead",
+      "tags": ["industrial"],
+      "createdAt": "2026-02-05"
+    }
+  ],
+  "deals": [
+    {
+      "id": "deal-001",
+      "title": "Nordic Imports — Storage Frames Q2",
+      "customerId": "cust-004",
+      "customerName": "Nordic Imports GmbH",
+      "value": 42750,
+      "currency": "USD",
+      "stage": "negotiation",
+      "probability": 70,
+      "expectedCloseDate": "2026-03-31",
+      "assignedTo": "Mark Thompson",
+      "createdAt": "2026-01-15",
+      "notes": "150 units, target Q2 delivery"
+    },
+    {
+      "id": "deal-002",
+      "title": "Apex — Q1 Bracket Bulk Order",
+      "customerId": "cust-002",
+      "customerName": "Apex Distributors",
+      "value": 18000,
+      "currency": "USD",
+      "stage": "proposal",
+      "probability": 55,
+      "expectedCloseDate": "2026-03-15",
+      "assignedTo": "Lisa Park",
+      "createdAt": "2026-02-01"
+    },
+    {
+      "id": "deal-003",
+      "title": "Summit Industrial — Intro Order",
+      "customerId": "cust-005",
+      "customerName": "Summit Industrial",
+      "value": 8500,
+      "currency": "USD",
+      "stage": "qualified",
+      "probability": 30,
+      "expectedCloseDate": "2026-04-15",
+      "assignedTo": "Mark Thompson",
+      "createdAt": "2026-02-10"
+    },
+    {
+      "id": "deal-004",
+      "title": "BuildRight — Annual Supply Contract",
+      "customerId": "cust-001",
+      "customerName": "BuildRight Construction",
+      "value": 180000,
+      "currency": "USD",
+      "stage": "won",
+      "probability": 100,
+      "expectedCloseDate": "2026-01-31",
+      "assignedTo": "Lisa Park",
+      "createdAt": "2025-11-01",
+      "notes": "Signed annual contract, monthly deliveries"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-001",
+      "orderNumber": "SO-2026-001",
+      "customerId": "cust-001",
+      "customerName": "BuildRight Construction",
+      "orderDate": "2026-02-01",
+      "deliveryDate": "2026-02-20",
+      "status": "delivered",
+      "lineItems": [
+        { "productId": "prod-003", "productName": "Heavy Duty Bracket", "quantity": 100, "unitPrice": 24.00, "total": 2400.00 },
+        { "productId": "prod-004", "productName": "Storage Frame Unit", "quantity": 10, "unitPrice": 285.00, "total": 2850.00 }
+      ],
+      "subtotal": 5250.00,
+      "tax": 420.00,
+      "total": 5670.00,
+      "currency": "USD"
+    },
+    {
+      "id": "ord-002",
+      "orderNumber": "SO-2026-002",
+      "customerId": "cust-002",
+      "customerName": "Apex Distributors",
+      "orderDate": "2026-02-10",
+      "deliveryDate": "2026-03-01",
+      "status": "processing",
+      "lineItems": [
+        { "productId": "prod-003", "productName": "Heavy Duty Bracket", "quantity": 200, "unitPrice": 22.00, "total": 4400.00 }
+      ],
+      "subtotal": 4400.00,
+      "tax": 352.00,
+      "total": 4752.00,
+      "currency": "USD"
+    },
+    {
+      "id": "ord-003",
+      "orderNumber": "SO-2026-003",
+      "customerId": "cust-003",
+      "customerName": "Pacific Trade Co",
+      "orderDate": "2026-02-15",
+      "status": "confirmed",
+      "lineItems": [
+        { "productId": "prod-004", "productName": "Storage Frame Unit", "quantity": 20, "unitPrice": 275.00, "total": 5500.00 }
+      ],
+      "subtotal": 5500.00,
+      "tax": 0,
+      "total": 5500.00,
+      "currency": "USD",
+      "notes": "Export — zero-rated tax"
+    }
+  ]
+}

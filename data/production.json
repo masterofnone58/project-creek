@@ -1,0 +1,55 @@
+{
+  "orders": [
+    {
+      "id": "pord-001",
+      "orderNumber": "PROD-2026-001",
+      "productId": "prod-003",
+      "productName": "Heavy Duty Bracket",
+      "quantity": 300,
+      "unit": "piece",
+      "status": "completed",
+      "startDate": "2026-02-01",
+      "endDate": "2026-02-08",
+      "bom": [
+        { "productId": "prod-001", "productName": "Steel Rod 10mm", "quantity": 150, "unit": "piece" },
+        { "productId": "prod-005", "productName": "Anti-Rust Coating", "quantity": 2, "unit": "drum" }
+      ],
+      "assignedTo": "Sarah Williams",
+      "createdAt": "2026-01-28"
+    },
+    {
+      "id": "pord-002",
+      "orderNumber": "PROD-2026-002",
+      "productId": "prod-004",
+      "productName": "Storage Frame Unit",
+      "quantity": 30,
+      "unit": "unit",
+      "status": "in_progress",
+      "startDate": "2026-02-15",
+      "bom": [
+        { "productId": "prod-001", "productName": "Steel Rod 10mm", "quantity": 120, "unit": "piece" },
+        { "productId": "prod-002", "productName": "Steel Plate 3mm", "quantity": 30, "unit": "sheet" },
+        { "productId": "prod-006", "productName": "M12 Bolt Set (100pc)", "quantity": 15, "unit": "set" },
+        { "productId": "prod-005", "productName": "Anti-Rust Coating", "quantity": 3, "unit": "drum" }
+      ],
+      "assignedTo": "Sarah Williams",
+      "createdAt": "2026-02-10"
+    },
+    {
+      "id": "pord-003",
+      "orderNumber": "PROD-2026-003",
+      "productId": "prod-003",
+      "productName": "Heavy Duty Bracket",
+      "quantity": 200,
+      "unit": "piece",
+      "status": "planned",
+      "startDate": "2026-03-01",
+      "bom": [
+        { "productId": "prod-001", "productName": "Steel Rod 10mm", "quantity": 100, "unit": "piece" },
+        { "productId": "prod-005", "productName": "Anti-Rust Coating", "quantity": 1, "unit": "drum" }
+      ],
+      "assignedTo": "Sarah Williams",
+      "createdAt": "2026-02-20"
+    }
+  ]
+}

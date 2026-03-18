@@ -1,0 +1,138 @@
+{
+  "products": [
+    {
+      "id": "prod-001",
+      "sku": "STL-ROD-001",
+      "name": "Steel Rod 10mm",
+      "description": "High-grade carbon steel rod, 10mm diameter, 6m length",
+      "category": "Raw Materials",
+      "unit": "piece",
+      "costPrice": 12.50,
+      "sellPrice": 18.00,
+      "stockQuantity": 450,
+      "reorderLevel": 100,
+      "reorderQuantity": 500,
+      "supplierName": "Metro Steel Supply",
+      "active": true
+    },
+    {
+      "id": "prod-002",
+      "sku": "STL-PLT-002",
+      "name": "Steel Plate 3mm",
+      "description": "Flat carbon steel plate, 3mm thick, 1200x2400mm",
+      "category": "Raw Materials",
+      "unit": "sheet",
+      "costPrice": 45.00,
+      "sellPrice": 65.00,
+      "stockQuantity": 120,
+      "reorderLevel": 30,
+      "reorderQuantity": 100,
+      "supplierName": "Metro Steel Supply",
+      "active": true
+    },
+    {
+      "id": "prod-003",
+      "sku": "MFG-BRKT-003",
+      "name": "Heavy Duty Bracket",
+      "description": "Manufactured steel bracket for industrial shelving",
+      "category": "Finished Goods",
+      "unit": "piece",
+      "costPrice": 8.50,
+      "sellPrice": 24.00,
+      "stockQuantity": 280,
+      "reorderLevel": 50,
+      "reorderQuantity": 200,
+      "active": true
+    },
+    {
+      "id": "prod-004",
+      "sku": "MFG-FRAME-004",
+      "name": "Storage Frame Unit",
+      "description": "Modular steel storage frame, 2m x 1m x 0.5m",
+      "category": "Finished Goods",
+      "unit": "unit",
+      "costPrice": 120.00,
+      "sellPrice": 285.00,
+      "stockQuantity": 45,
+      "reorderLevel": 10,
+      "reorderQuantity": 30,
+      "active": true
+    },
+    {
+      "id": "prod-005",
+      "sku": "CHEM-COAT-005",
+      "name": "Anti-Rust Coating",
+      "description": "Industrial anti-rust primer, 20L drum",
+      "category": "Consumables",
+      "unit": "drum",
+      "costPrice": 85.00,
+      "sellPrice": 0,
+      "stockQuantity": 18,
+      "reorderLevel": 5,
+      "reorderQuantity": 20,
+      "supplierName": "ChemCoat Industries",
+      "active": true
+    },
+    {
+      "id": "prod-006",
+      "sku": "MFG-BOLT-006",
+      "name": "M12 Bolt Set (100pc)",
+      "description": "Galvanized M12 bolts with nuts and washers",
+      "category": "Components",
+      "unit": "set",
+      "costPrice": 22.00,
+      "sellPrice": 42.00,
+      "stockQuantity": 8,
+      "reorderLevel": 20,
+      "reorderQuantity": 50,
+      "supplierName": "FastenerWorld",
+      "active": true
+    }
+  ],
+  "movements": [
+    {
+      "id": "mov-001",
+      "productId": "prod-001",
+      "productName": "Steel Rod 10mm",
+      "date": "2026-02-10",
+      "type": "in",
+      "quantity": 500,
+      "reason": "Purchase order",
+      "referenceId": "PO-2026-001",
+      "referenceType": "purchase"
+    },
+    {
+      "id": "mov-002",
+      "productId": "prod-003",
+      "productName": "Heavy Duty Bracket",
+      "date": "2026-02-15",
+      "type": "out",
+      "quantity": 50,
+      "reason": "Sales order",
+      "referenceId": "SO-2026-004",
+      "referenceType": "sale"
+    },
+    {
+      "id": "mov-003",
+      "productId": "prod-004",
+      "productName": "Storage Frame Unit",
+      "date": "2026-02-18",
+      "type": "in",
+      "quantity": 15,
+      "reason": "Production completed",
+      "referenceId": "PROD-2026-002",
+      "referenceType": "production"
+    },
+    {
+      "id": "mov-004",
+      "productId": "prod-006",
+      "productName": "M12 Bolt Set (100pc)",
+      "date": "2026-02-20",
+      "type": "out",
+      "quantity": 12,
+      "reason": "Production use",
+      "referenceId": "PROD-2026-003",
+      "referenceType": "production"
+    }
+  ]
+}

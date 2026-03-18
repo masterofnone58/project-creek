@@ -1,0 +1,125 @@
+{
+  "products": [
+    {
+      "id": "cg-prod-001",
+      "sku": "CMY-SBM-001",
+      "name": "Soybean Meal",
+      "description": "High-protein soybean meal, 48% protein, bagged 50kg",
+      "category": "Commodities",
+      "unit": "MT",
+      "costPrice": 380.00,
+      "sellPrice": 420.00,
+      "stockQuantity": 120,
+      "reorderLevel": 50,
+      "reorderQuantity": 200,
+      "supplierName": "AgriSource Brazil",
+      "active": true
+    },
+    {
+      "id": "cg-prod-002",
+      "sku": "CMY-CPO-002",
+      "name": "Crude Palm Oil",
+      "description": "Crude palm oil, FFA max 5%, tanker grade",
+      "category": "Commodities",
+      "unit": "MT",
+      "costPrice": 820.00,
+      "sellPrice": 890.00,
+      "stockQuantity": 45,
+      "reorderLevel": 20,
+      "reorderQuantity": 100,
+      "supplierName": "Borneo Palms Sdn",
+      "active": true
+    },
+    {
+      "id": "cg-prod-003",
+      "sku": "CMY-WRC-003",
+      "name": "White Rice Grade A",
+      "description": "Long grain white rice, 5% broken, 50kg bags",
+      "category": "Commodities",
+      "unit": "MT",
+      "costPrice": 460.00,
+      "sellPrice": 510.00,
+      "stockQuantity": 8,
+      "reorderLevel": 30,
+      "reorderQuantity": 100,
+      "supplierName": "Thai Rice Exports Co",
+      "active": true
+    },
+    {
+      "id": "cg-prod-004",
+      "sku": "CMY-CORN-004",
+      "name": "Yellow Corn",
+      "description": "Yellow corn No. 2, moisture max 14%",
+      "category": "Commodities",
+      "unit": "MT",
+      "costPrice": 210.00,
+      "sellPrice": 240.00,
+      "stockQuantity": 0,
+      "reorderLevel": 50,
+      "reorderQuantity": 200,
+      "supplierName": "MidWest Grain Co",
+      "active": true
+    },
+    {
+      "id": "cg-prod-005",
+      "sku": "PKG-BAG-005",
+      "name": "PP Woven Bags (500 pcs)",
+      "description": "Polypropylene woven bags, 50kg capacity",
+      "category": "Packaging",
+      "unit": "bundle",
+      "costPrice": 95.00,
+      "sellPrice": 0,
+      "stockQuantity": 12,
+      "reorderLevel": 10,
+      "reorderQuantity": 30,
+      "supplierName": "PackTech Industries",
+      "active": true
+    }
+  ],
+  "movements": [
+    {
+      "id": "cg-mov-001",
+      "productId": "cg-prod-001",
+      "productName": "Soybean Meal",
+      "date": "2026-02-03",
+      "type": "in",
+      "quantity": 150,
+      "reason": "Purchase from supplier",
+      "referenceId": "CG-PO-2026-001",
+      "referenceType": "purchase"
+    },
+    {
+      "id": "cg-mov-002",
+      "productId": "cg-prod-001",
+      "productName": "Soybean Meal",
+      "date": "2026-02-25",
+      "type": "out",
+      "quantity": 50,
+      "reason": "Sales order",
+      "referenceId": "CG-SO-2026-001",
+      "referenceType": "sale"
+    },
+    {
+      "id": "cg-mov-003",
+      "productId": "cg-prod-002",
+      "productName": "Crude Palm Oil",
+      "date": "2026-02-10",
+      "type": "in",
+      "quantity": 65,
+      "reason": "Purchase from supplier",
+      "referenceId": "CG-PO-2026-002",
+      "referenceType": "purchase"
+    },
+    {
+      "id": "cg-mov-004",
+      "productId": "cg-prod-003",
+      "productName": "White Rice Grade A",
+      "date": "2026-02-18",
+      "type": "out",
+      "quantity": 30,
+      "reason": "Sales order",
+      "referenceId": "CG-SO-2025-008",
+      "referenceType": "sale"
+    }
+  ]
+}

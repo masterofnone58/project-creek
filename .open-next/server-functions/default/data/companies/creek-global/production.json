@@ -1,0 +1,37 @@
+{
+  "orders": [
+    {
+      "id": "cg-pord-001",
+      "orderNumber": "CG-PKG-2026-001",
+      "productId": "cg-prod-001",
+      "productName": "Soybean Meal",
+      "quantity": 100,
+      "unit": "MT",
+      "status": "completed",
+      "startDate": "2026-02-03",
+      "endDate": "2026-02-05",
+      "bom": [
+        { "productId": "cg-prod-005", "productName": "PP Woven Bags (500 pcs)", "quantity": 2, "unit": "bundle" }
+      ],
+      "assignedTo": "Wei Zhang",
+      "createdAt": "2026-02-01",
+      "notes": "Rebagging from bulk to 50kg bags for Japan shipment"
+    },
+    {
+      "id": "cg-pord-002",
+      "orderNumber": "CG-PKG-2026-002",
+      "productId": "cg-prod-002",
+      "productName": "Crude Palm Oil",
+      "quantity": 20,
+      "unit": "MT",
+      "status": "in_progress",
+      "startDate": "2026-02-20",
+      "bom": [
+        { "productId": "cg-prod-005", "productName": "PP Woven Bags (500 pcs)", "quantity": 1, "unit": "bundle" }
+      ],
+      "assignedTo": "Wei Zhang",
+      "createdAt": "2026-02-15",
+      "notes": "Preparing palm oil shipment for Singapore"
+    }
+  ]
+}

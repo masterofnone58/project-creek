@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npx *)",
+      "Bash(git *)",
+      "Bash(curl *)",
+      "Read(**)",
+      "Edit(src/**)",
+      "Edit(data/**)",
+      "Edit(CLAUDE.md)",
+      "Edit(.claude/**)"
+    ],
+    "deny": [
+      "Read(.env*)",
+      "Read(.env.local)"
+    ]
+  }
+}

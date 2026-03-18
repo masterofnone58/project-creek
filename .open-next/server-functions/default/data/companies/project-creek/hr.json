@@ -1,0 +1,121 @@
+{
+  "departments": [
+    { "id": "dept-001", "name": "Operations", "headId": "emp-001", "headName": "Michael Chen" },
+    { "id": "dept-002", "name": "Sales", "headId": "emp-004", "headName": "Lisa Park" },
+    { "id": "dept-003", "name": "Finance", "headId": "emp-005", "headName": "David Okafor" },
+    { "id": "dept-004", "name": "Production", "headId": "emp-006", "headName": "Anna Kowalski" },
+    { "id": "dept-005", "name": "Logistics", "headId": "emp-007", "headName": "Carlos Rivera" }
+  ],
+  "employees": [
+    {
+      "id": "emp-001",
+      "firstName": "Michael",
+      "lastName": "Chen",
+      "email": "m.chen@projectcreek.com",
+      "phone": "+1-555-1001",
+      "role": "Operations Director",
+      "departmentId": "dept-001",
+      "departmentName": "Operations",
+      "status": "active",
+      "startDate": "2020-03-01",
+      "salary": 120000
+    },
+    {
+      "id": "emp-002",
+      "firstName": "Mark",
+      "lastName": "Thompson",
+      "email": "m.thompson@projectcreek.com",
+      "phone": "+1-555-1002",
+      "role": "Senior Sales Manager",
+      "departmentId": "dept-002",
+      "departmentName": "Sales",
+      "status": "active",
+      "startDate": "2021-06-15",
+      "salary": 95000,
+      "managerId": "emp-004",
+      "managerName": "Lisa Park"
+    },
+    {
+      "id": "emp-003",
+      "firstName": "Sarah",
+      "lastName": "Williams",
+      "email": "s.williams@projectcreek.com",
+      "phone": "+1-555-1003",
+      "role": "Production Supervisor",
+      "departmentId": "dept-004",
+      "departmentName": "Production",
+      "status": "active",
+      "startDate": "2022-01-10",
+      "salary": 75000,
+      "managerId": "emp-006",
+      "managerName": "Anna Kowalski"
+    },
+    {
+      "id": "emp-004",
+      "firstName": "Lisa",
+      "lastName": "Park",
+      "email": "l.park@projectcreek.com",
+      "phone": "+1-555-1004",
+      "role": "Sales Director",
+      "departmentId": "dept-002",
+      "departmentName": "Sales",
+      "status": "active",
+      "startDate": "2019-09-01",
+      "salary": 115000
+    },
+    {
+      "id": "emp-005",
+      "firstName": "David",
+      "lastName": "Okafor",
+      "email": "d.okafor@projectcreek.com",
+      "phone": "+1-555-1005",
+      "role": "Finance Director",
+      "departmentId": "dept-003",
+      "departmentName": "Finance",
+      "status": "active",
+      "startDate": "2020-11-15",
+      "salary": 110000
+    },
+    {
+      "id": "emp-006",
+      "firstName": "Anna",
+      "lastName": "Kowalski",
+      "email": "a.kowalski@projectcreek.com",
+      "phone": "+1-555-1006",
+      "role": "Production Director",
+      "departmentId": "dept-004",
+      "departmentName": "Production",
+      "status": "active",
+      "startDate": "2021-02-01",
+      "salary": 105000
+    },
+    {
+      "id": "emp-007",
+      "firstName": "Carlos",
+      "lastName": "Rivera",
+      "email": "c.rivera@projectcreek.com",
+      "phone": "+1-555-1007",
+      "role": "Logistics Manager",
+      "departmentId": "dept-005",
+      "departmentName": "Logistics",
+      "status": "active",
+      "startDate": "2022-05-20",
+      "salary": 85000
+    },
+    {
+      "id": "emp-008",
+      "firstName": "Priya",
+      "lastName": "Sharma",
+      "email": "p.sharma@projectcreek.com",
+      "phone": "+1-555-1008",
+      "role": "Accountant",
+      "departmentId": "dept-003",
+      "departmentName": "Finance",
+      "status": "on_leave",
+      "startDate": "2023-03-01",
+      "salary": 68000,
+      "managerId": "emp-005",
+      "managerName": "David Okafor"
+    }
+  ]
+}

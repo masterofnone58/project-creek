@@ -1,0 +1,308 @@
+{
+  "nav": {
+    "overview": "Overview",
+    "finance": "Finance",
+    "sales": "Sales & CRM",
+    "inventory": "Inventory",
+    "production": "Production",
+    "hr": "HR & Team",
+    "reports": "Reports",
+    "appName": "Project Creek",
+    "appSubtitle": "Operations Dashboard",
+    "home": "Home"
+  },
+  "common": {
+    "name": "Name",
+    "date": "Date",
+    "status": "Status",
+    "total": "Total",
+    "description": "Description",
+    "notes": "Notes",
+    "actions": "Actions",
+    "customer": "Customer",
+    "vendor": "Vendor",
+    "amount": "Amount",
+    "currency": "Currency",
+    "category": "Category",
+    "type": "Type",
+    "email": "Email",
+    "company": "Company",
+    "assignedTo": "Assigned To",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "createdAt": "Created",
+    "value": "Value",
+    "quantity": "Qty",
+    "unit": "Unit",
+    "product": "Product"
+  },
+  "status": {
+    "draft": "Draft",
+    "sent": "Sent",
+    "paid": "Paid",
+    "overdue": "Overdue",
+    "cancelled": "Cancelled",
+    "pending": "Pending",
+    "approved": "Approved",
+    "rejected": "Rejected",
+    "active": "Active",
+    "inactive": "Inactive",
+    "on_leave": "On Leave",
+    "planned": "Planned",
+    "in_progress": "In Progress",
+    "completed": "Completed",
+    "confirmed": "Confirmed",
+    "processing": "Processing",
+    "shipped": "Shipped",
+    "delivered": "Delivered",
+    "lead": "Lead",
+    "qualified": "Qualified",
+    "proposal": "Proposal",
+    "negotiation": "Negotiation",
+    "won": "Won",
+    "lost": "Lost",
+    "prospect": "Prospect",
+    "customer": "Customer"
+  },
+  "dashboard": {
+    "title": "Overview",
+    "description": "Company-wide summary",
+    "kpi": {
+      "revenue": "Revenue (paid invoices)",
+      "revenueSub": "this period",
+      "outstanding": "Outstanding invoices",
+      "openDeals": "Open sales deals",
+      "openDealsSub": "in pipeline",
+      "lowStock": "Low stock alerts",
+      "lowStockSub": "products at/below reorder level",
+      "activeProduction": "Active production orders",
+      "activeProductionSub": "currently in progress",
+      "activeEmployees": "Active employees",
+      "activeEmployeesSub": "across {count} departments"
+    },
+    "lowStockAlerts": "Low Stock Alerts",
+    "lowStockTable": {
+      "product": "Product",
+      "sku": "SKU",
+      "stock": "Stock",
+      "reorderLevel": "Reorder Level"
+    }
+  },
+  "finance": {
+    "title": "Finance & Accounting",
+    "description": "Invoices and expenses",
+    "paidRevenue": "Paid revenue",
+    "outstanding": "Outstanding",
+    "totalExpenses": "Total expenses",
+    "invoices": "Invoices",
+    "expenses": "Expenses",
+    "invoiceTable": {
+      "invoice": "Invoice",
+      "customer": "Customer",
+      "issueDate": "Issue Date",
+      "dueDate": "Due Date",
+      "status": "Status",
+      "total": "Total"
+    },
+    "expenseTable": {
+      "date": "Date",
+      "category": "Category",
+      "description": "Description",
+      "vendor": "Vendor",
+      "status": "Status",
+      "amount": "Amount"
+    }
+  },
+  "sales": {
+    "title": "Sales & CRM",
+    "description": "Customers, deals, and orders",
+    "activeCustomers": "Active customers",
+    "openDeals": "Open deals",
+    "weightedPipeline": "Weighted pipeline",
+    "dealsPipeline": "Deals Pipeline",
+    "salesOrders": "Sales Orders",
+    "customers": "Customers",
+    "dealsTable": {
+      "deal": "Deal",
+      "customer": "Customer",
+      "stage": "Stage",
+      "probability": "Probability",
+      "value": "Value",
+      "assignedTo": "Assigned To",
+      "closeDate": "Close Date"
+    },
+    "ordersTable": {
+      "orderNo": "Order No.",
+      "customer": "Customer",
+      "orderDate": "Order Date",
+      "status": "Status",
+      "total": "Total"
+    },
+    "customersTable": {
+      "name": "Name",
+      "company": "Company",
+      "type": "Type",
+      "email": "Email",
+      "since": "Since"
+    }
+  },
+  "inventory": {
+    "title": "Inventory & Products",
+    "description": "Product catalog, stock levels, and movements",
+    "totalProducts": "Total products",
+    "stockValue": "Stock value (cost)",
+    "lowStockAlerts": "Low stock alerts",
+    "products": "Products",
+    "recentMovements": "Recent Movements",
+    "productsTable": {
+      "sku": "SKU",
+      "product": "Product",
+      "category": "Category",
+      "stock": "Stock",
+      "reorderLevel": "Reorder Level",
+      "cost": "Cost",
+      "sellPrice": "Sell Price"
+    },
+    "movementsTable": {
+      "date": "Date",
+      "product": "Product",
+      "type": "Type",
+      "quantity": "Quantity",
+      "reason": "Reason",
+      "reference": "Reference"
+    },
+    "movementType": {
+      "in": "In",
+      "out": "Out",
+      "adjustment": "Adjustment"
+    }
+  },
+  "production": {
+    "title": "Production",
+    "description": "Production orders and manufacturing",
+    "inProgress": "In progress",
+    "planned": "Planned",
+    "completed": "Completed",
+    "productionOrders": "Production Orders",
+    "billOfMaterials": "Bill of Materials",
+    "orderInfo": "Started {startDate} · Completed {endDate}",
+    "orderInfoNoEnd": "Started {startDate}"
+  },
+  "hr": {
+    "title": "HR & Team",
+    "description": "Employees and departments",
+    "totalEmployees": "Total employees",
+    "active": "Active",
+    "onLeave": "On leave",
+    "departments": "Departments",
+    "employees": "Employees",
+    "members": "members",
+    "member": "member",
+    "head": "Head",
+    "employeesTable": {
+      "name": "Name",
+      "role": "Role",
+      "department": "Department",
+      "status": "Status",
+      "startDate": "Start Date",
+      "salary": "Salary"
+    }
+  },
+  "reports": {
+    "title": "Reports & Analytics",
+    "description": "Cross-module business insights",
+    "financialSummary": "Financial Summary",
+    "totalRevenue": "Total revenue",
+    "totalExpenses": "Total expenses",
+    "grossProfit": "Gross profit",
+    "paidInvoices": "{count} paid invoices",
+    "expensesByCategory": "Expenses by Category",
+    "salesPerformance": "Sales Performance",
+    "operationsSummary": "Operations Summary",
+    "categoryTable": {
+      "category": "Category",
+      "amount": "Amount",
+      "pct": "% of Total"
+    },
+    "salesStats": {
+      "totalCustomers": "Total customers",
+      "dealsWon": "Deals won",
+      "winRate": "Win rate",
+      "wonDealValue": "Won deal value"
+    },
+    "opsStats": {
+      "productionOrders": "Production orders (total)",
+      "completedOrders": "Completed orders",
+      "totalSkus": "Total SKUs",
+      "activeEmployees": "Active employees"
+    }
+  },
+  "companies": {
+    "title": "All Companies",
+    "description": "Select a company to view its dashboard",
+    "switchCompany": "Switch Company",
+    "openDashboard": "Open Dashboard",
+    "industry": "Industry",
+    "employees": "employees",
+    "revenue": "Revenue",
+    "invoiceQuota": "Invoice Quota",
+    "notFound": "Company not found",
+    "supplyChainOverview": "Supply Chain Overview",
+    "monthlyRevenueTitle": "2025 Monthly Invoice Revenue",
+    "quotaTableTitle": "Cumulative Invoiced vs Quota",
+    "quotaTableCompany": "Company",
+    "quotaTableInvoiced": "Invoiced",
+    "quotaTableQuota": "Quota",
+    "quotaTableRate": "Achievement"
+  },
+  "supplyChain": {
+    "title": "Supply Chain Overview",
+    "description": "Consolidated KPIs across all entities vs. annual targets",
+    "backToCompanies": "All Companies",
+    "kpi": {
+      "totalInvoiced": "Total Invoiced",
+      "salesAmount": "Total Sales Amount",
+      "ar": "Accounts Receivable",
+      "ap": "Accounts Payable",
+      "quotaPct": "Quota Achievement",
+      "quotaGap": "Annual Gap"
+    },
+    "perCompany": {
+      "quota": "Invoicing Ceiling",
+      "achieved": "Achieved",
+      "ar": "AR",
+      "ap": "AP",
+      "progress": "Progress",
+      "totalInvoiced": "Total Invoiced",
+      "salesAmount": "Sales Amount",
+      "remaining": "Remaining",
+      "invoiced": "Invoiced",
+      "monthlyThreshold": "Monthly Threshold",
+      "monthInvoiced": "This Month Invoiced",
+      "monthRemaining": "Remaining"
+    },
+    "chart": {
+      "title": "Monthly Sales Invoiced vs Monthly Invoice Target",
+      "subtitle": "By company · 2025–2026",
+      "actual": "Actual",
+      "ceiling": "Monthly Quota",
+      "amount": "Amount (USD)"
+    },
+    "alerts": {
+      "title": "Risks & Alerts",
+      "invoice": "Invoice",
+      "customer": "Customer",
+      "amount": "Amount",
+      "dueDate": "Due Date",
+      "overdueDays": "Days Overdue",
+      "entity": "Entity",
+      "responsible": "Responsible",
+      "noAlerts": "All clear — no active alerts",
+      "sectionAr": "Overdue AR — Chase Payment",
+      "sectionThreshold": "Monthly Invoice Threshold Warning",
+      "daysOverdue": "days overdue",
+      "thresholdReached": "of monthly threshold invoiced",
+      "remaining": "remaining"
+    }
+  }
+}

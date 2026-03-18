@@ -1,0 +1,16 @@
+[
+  {
+    "id": "project-creek",
+    "name": "小田工厂",
+    "industry": "Manufacturing",
+    "color": "blue",
+    "description": "Industrial manufacturing of steel products and components"
+  },
+  {
+    "id": "creek-global",
+    "name": "小田贸易",
+    "industry": "Trading",
+    "color": "emerald",
+    "description": "International commodity trading and distribution"
+  }
+]

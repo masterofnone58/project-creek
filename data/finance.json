@@ -1,0 +1,136 @@
+{
+  "invoices": [
+    {
+      "id": "inv-001",
+      "number": "INV-2026-001",
+      "customerId": "cust-001",
+      "customerName": "BuildRight Construction",
+      "issueDate": "2026-02-01",
+      "dueDate": "2026-03-03",
+      "status": "paid",
+      "lineItems": [
+        { "description": "Heavy Duty Brackets (100 pcs)", "quantity": 100, "unitPrice": 24.00, "total": 2400.00 },
+        { "description": "Storage Frame Units (10 pcs)", "quantity": 10, "unitPrice": 285.00, "total": 2850.00 }
+      ],
+      "subtotal": 5250.00,
+      "tax": 420.00,
+      "total": 5670.00,
+      "currency": "USD"
+    },
+    {
+      "id": "inv-002",
+      "number": "INV-2026-002",
+      "customerId": "cust-002",
+      "customerName": "Apex Distributors",
+      "issueDate": "2026-02-10",
+      "dueDate": "2026-03-12",
+      "status": "sent",
+      "lineItems": [
+        { "description": "Heavy Duty Brackets (200 pcs)", "quantity": 200, "unitPrice": 22.00, "total": 4400.00 }
+      ],
+      "subtotal": 4400.00,
+      "tax": 352.00,
+      "total": 4752.00,
+      "currency": "USD"
+    },
+    {
+      "id": "inv-003",
+      "number": "INV-2026-003",
+      "customerId": "cust-003",
+      "customerName": "Pacific Trade Co",
+      "issueDate": "2026-02-15",
+      "dueDate": "2026-03-17",
+      "status": "sent",
+      "lineItems": [
+        { "description": "Storage Frame Units (20 pcs)", "quantity": 20, "unitPrice": 275.00, "total": 5500.00 }
+      ],
+      "subtotal": 5500.00,
+      "tax": 0,
+      "total": 5500.00,
+      "currency": "USD",
+      "notes": "Export — zero-rated VAT"
+    },
+    {
+      "id": "inv-004",
+      "number": "INV-2025-112",
+      "customerId": "cust-001",
+      "customerName": "BuildRight Construction",
+      "issueDate": "2025-12-01",
+      "dueDate": "2025-12-31",
+      "status": "overdue",
+      "lineItems": [
+        { "description": "Steel Rods (50 pcs)", "quantity": 50, "unitPrice": 18.00, "total": 900.00 }
+      ],
+      "subtotal": 900.00,
+      "tax": 72.00,
+      "total": 972.00,
+      "currency": "USD"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "exp-001",
+      "date": "2026-02-03",
+      "category": "operations",
+      "description": "Monthly warehouse lease",
+      "amount": 8500.00,
+      "currency": "USD",
+      "vendor": "Harbor Properties",
+      "approvedBy": "Michael Chen",
+      "status": "paid"
+    },
+    {
+      "id": "exp-002",
+      "date": "2026-02-05",
+      "category": "utilities",
+      "description": "Electricity and gas — February",
+      "amount": 1240.00,
+      "currency": "USD",
+      "vendor": "CityPower",
+      "approvedBy": "David Okafor",
+      "status": "paid"
+    },
+    {
+      "id": "exp-003",
+      "date": "2026-02-10",
+      "category": "marketing",
+      "description": "Trade show booth — ManuFuture Expo 2026",
+      "amount": 3200.00,
+      "currency": "USD",
+      "vendor": "Expo Events Inc",
+      "approvedBy": "Lisa Park",
+      "status": "approved"
+    },
+    {
+      "id": "exp-004",
+      "date": "2026-02-14",
+      "category": "travel",
+      "description": "Sales trip to Munich — flights and hotel",
+      "amount": 1850.00,
+      "currency": "USD",
+      "vendor": "TravelCorp",
+      "approvedBy": "Lisa Park",
+      "status": "paid"
+    },
+    {
+      "id": "exp-005",
+      "date": "2026-02-20",
+      "category": "operations",
+      "description": "Forklift maintenance",
+      "amount": 420.00,
+      "currency": "USD",
+      "vendor": "MachServ",
+      "status": "pending"
+    },
+    {
+      "id": "exp-006",
+      "date": "2026-02-28",
+      "category": "payroll",
+      "description": "February payroll",
+      "amount": 68250.00,
+      "currency": "USD",
+      "approvedBy": "David Okafor",
+      "status": "approved"
+    }
+  ]
+}
