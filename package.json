@@ -8,9 +8,7 @@
     "start": "next start -p 80",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "build:cf": "npx opennextjs-cloudflare build",
-    "preview": "npx opennextjs-cloudflare build && wrangler dev",
-    "deploy": "npx opennextjs-cloudflare build && wrangler deploy"
+    "deploy": "git push origin main"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.77.2",
