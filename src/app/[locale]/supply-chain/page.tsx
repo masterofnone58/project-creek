@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
 import { getRepos, getCompanies, createTargetsRepo } from '@/lib/repositories'
 import { formatCurrency } from '@/lib/utils'
@@ -16,6 +16,7 @@ export default async function SupplyChainPage({
   params: Promise<{ locale: string }>
 }) {
   const { locale } = await params
+  setRequestLocale(locale)
   const t = await getTranslations('supplyChain')
 
   const today = new Date('2026-03-01')

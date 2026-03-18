@@ -1,4 +1,5 @@
 import { notFound } from 'next/navigation'
+import { setRequestLocale } from 'next-intl/server'
 import { Sidebar } from '@/components/layout/Sidebar'
 import { getCompanies, getCompanyById } from '@/lib/repositories'
 
@@ -9,11 +10,12 @@ export async function generateStaticParams() {
 
 interface Props {
   children: React.ReactNode
-  params: Promise<{ company: string }>
+  params: Promise<{ locale: string; company: string }>
 }
 
 export default async function CompanyLayout({ children, params }: Props) {
-  const { company: companyId } = await params
+  const { locale, company: companyId } = await params
+  setRequestLocale(locale)
 
   const [companies, company] = await Promise.all([
     getCompanies(),

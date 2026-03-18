@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { Header } from '@/components/layout/Header'
 import { getRepos } from '@/lib/repositories'
 import { formatCurrency, formatDate } from '@/lib/utils'
@@ -22,11 +22,12 @@ const ORDER_STATUS_COLORS: Record<string, string> = {
 }
 
 interface Props {
-  params: Promise<{ company: string }>
+  params: Promise<{ locale: string; company: string }>
 }
 
 export default async function SalesPage({ params }: Props) {
-  const { company } = await params
+  const { locale, company } = await params
+  setRequestLocale(locale)
   const [t, ts] = await Promise.all([
     getTranslations('sales'),
     getTranslations('status'),

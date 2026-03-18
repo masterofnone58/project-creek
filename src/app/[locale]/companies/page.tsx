@@ -1,4 +1,4 @@
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { Link } from '@/i18n/navigation'
 import { getCompanies, getRepos, createTargetsRepo } from '@/lib/repositories'
 import { Building2, ArrowRight } from 'lucide-react'
@@ -26,7 +26,9 @@ function rateColor(rate: number) {
   return 'text-red-600 font-semibold'
 }
 
-export default async function CompaniesPage() {
+export default async function CompaniesPage({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params
+  setRequestLocale(locale)
   const t = await getTranslations('companies')
 
   const companies = await getCompanies()

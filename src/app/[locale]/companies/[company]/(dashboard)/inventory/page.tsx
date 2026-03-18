@@ -1,14 +1,15 @@
-import { getTranslations } from 'next-intl/server'
+import { getTranslations, setRequestLocale } from 'next-intl/server'
 import { Header } from '@/components/layout/Header'
 import { getRepos } from '@/lib/repositories'
 import { formatCurrency, formatDate } from '@/lib/utils'
 
 interface Props {
-  params: Promise<{ company: string }>
+  params: Promise<{ locale: string; company: string }>
 }
 
 export default async function InventoryPage({ params }: Props) {
-  const { company } = await params
+  const { locale, company } = await params
+  setRequestLocale(locale)
   const t = await getTranslations('inventory')
   const { inventoryRepo } = getRepos(company)
   const { products, movements } = await inventoryRepo.getAll()
